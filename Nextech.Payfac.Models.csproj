@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.66.1</Version>
+    <Authors>Nextech Systems, LLC</Authors>
+    <Company>Nextech Systems, LLC</Company>
+    <Description>.NET Standard implementation for Nextech.Payfac.Models</Description>
+    <PackageTags>sdk, nextech, Nextech.Payfac.Models, models</PackageTags>
+    <PackageProjectUrl>https://github.com/NextechSystems/nextech-payfac-api</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NextechSystems/nextech-payfac-api</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />    
+  </ItemGroup>
+
+</Project>
